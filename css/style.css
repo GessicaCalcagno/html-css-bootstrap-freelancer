@@ -1,0 +1,48 @@
+img {
+    max-width: 100%;
+  }
+
+:root{
+    --header-color: #2C3E50;
+    --hero-color: #1ABC9C;
+    --footer-top: #3A546D;
+    --footer-bottom: #2C3E50;
+}  
+
+
+/* HEADER */
+.ms_header{
+    background-color: black;
+    color: white;
+    min-height: 50px;
+}
+/* ********************************** */
+
+/* HERO */
+.ms_hero,
+.ms_about{
+    background-color: var(--hero-color);
+    color: white;
+
+}
+
+/* ********************************** */
+
+/* FORM SECTION */
+.ms_form{
+    /* debug */
+    background-color: bisque;
+}
+
+/* ********************************** */
+
+/* FORM SECTION */
+.ms_footer_top{
+    background-color: var(--footer-top);
+    color: white;
+}
+
+.ms_footer_bottom{
+    background-color: var(--footer-bottom);
+    color: white;
+}
