@@ -2,6 +2,10 @@ img {
     max-width: 100%;
   }
 
+a{
+    text-decoration: none;
+}
+
 :root{
     --header-color: #2C3E50;
     --hero-color: #1ABC9C;
@@ -16,6 +20,15 @@ img {
     color: white;
     min-height: 50px;
 }
+
+.ms_header li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.ms_header a{
+    color: white;
+}
 /* ********************************** */
 
 /* HERO */
@@ -23,7 +36,10 @@ img {
 .ms_about{
     background-color: var(--hero-color);
     color: white;
+}
 
+.ms_img{
+    width: 25%;
 }
 
 /* ********************************** */
@@ -36,7 +52,7 @@ img {
 
 /* ********************************** */
 
-/* FORM SECTION */
+/* FOOTER SECTIONS */
 .ms_footer_top{
     background-color: var(--footer-top);
     color: white;
