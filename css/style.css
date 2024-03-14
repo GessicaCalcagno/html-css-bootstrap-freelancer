@@ -1,23 +1,21 @@
 img {
     max-width: 100%;
-  }
+}
 
-a{
+a {
     text-decoration: none;
 }
 
-:root{
-    --header-color: #2C3E50;
-    --hero-color: #1ABC9C;
-    --footer-top: #3A546D;
-    --footer-bottom: #2C3E50;
-}  
+:root {
+    --ms_header-color: #2C3E50;
+    --ms_hero-color: #1ABC9C;
+    --ms_footer-top: #3A546D;
+    --ms_footer-bottom: #2C3E50;
+}
 
 
 /* HEADER */
-.ms_header{
-    background-color: black;
-    color: white;
+.ms_header {
     min-height: 50px;
 }
 
@@ -26,39 +24,69 @@ a{
     padding-right: 10px;
 }
 
-.ms_header a{
+.ms_header a {
     color: white;
 }
+
+.ms_btn_hamgurger {
+    border-color: aliceblue;
+    background-image: white;
+    /* NON SI COLORAAAAA */
+}
+
 /* ********************************** */
 
 /* HERO */
 .ms_hero,
-.ms_about{
-    background-color: var(--hero-color);
+.ms_about {
+    background-color: var(--ms_hero-color);
     color: white;
 }
 
-.ms_img{
+.ms_hero_container{
+    max-width: 800px;
+}
+
+.ms_img {
     width: 25%;
 }
 
 /* ********************************** */
 
+/* ABOUT SECTION */
+.ms_btn_dowload{
+    color: white;
+    border-color: white;
+}
+
+/* ********************************** */
+
 /* FORM SECTION */
-.ms_form{
-    /* debug */
-    background-color: bisque;
+.ms_border_form{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.ms_btn_send{
+    background-color: #1ABC9C;
+    border: 0;
 }
 
 /* ********************************** */
 
 /* FOOTER SECTIONS */
-.ms_footer_top{
-    background-color: var(--footer-top);
+.ms_footer_top {
+    background-color: var(--ms_footer-top);
     color: white;
 }
 
-.ms_footer_bottom{
-    background-color: var(--footer-bottom);
+.ms_anchor_bootstrap{
+    color: #1ABC9C;
+}
+
+.ms_footer_bottom {
+    background-color: var(--ms_footer-bottom);
     color: white;
 }
