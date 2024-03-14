@@ -28,10 +28,12 @@ a {
     color: white;
 }
 
+/* ------------- */
+.navbar-toggler-icon{
+filter: invert(100%) brightness(900%);
+}
 .ms_btn_hamgurger {
-    border-color: aliceblue;
-    background-image: white;
-    /* NON SI COLORAAAAA */
+    border-color:white;
 }
 
 /* ********************************** */
@@ -86,23 +88,18 @@ a {
     color: white;
 }
 
-.ms_border_icone{
-    border-radius: 50%;
-    border: 1px solid white;    
-}
-
 .ms_fa-facebook{
     padding: 8px 12px;
 }
 .ms_fa-google-plus{
-    padding: 8px 8px;
+    padding: 8px 6px;
 }
 .ms_fa-twitter,
 .ms_fa-linkedin{
     padding: 8px 8px;
 }
 
-
+/* Footer bottom */
 .ms_anchor_bootstrap{
     color: #1ABC9C;
 }
