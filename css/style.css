@@ -51,6 +51,10 @@ a {
     width: 25%;
 }
 
+.ms_hr_star{
+ letter-spacing: -3px;
+ font-weight: 900;
+}
 /* ********************************** */
 
 /* ABOUT SECTION */
@@ -81,6 +85,23 @@ a {
     background-color: var(--ms_footer-top);
     color: white;
 }
+
+.ms_border_icone{
+    border-radius: 50%;
+    border: 1px solid white;    
+}
+
+.ms_fa-facebook{
+    padding: 8px 12px;
+}
+.ms_fa-google-plus{
+    padding: 8px 8px;
+}
+.ms_fa-twitter,
+.ms_fa-linkedin{
+    padding: 8px 8px;
+}
+
 
 .ms_anchor_bootstrap{
     color: #1ABC9C;
