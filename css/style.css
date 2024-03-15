@@ -15,8 +15,8 @@ a {
 
 
 /* HEADER */
-.ms_header {
-    min-height: 50px;
+.navbar {
+    background-color: var(--ms_header-color); 
 }
 
 .ms_header li {
@@ -28,10 +28,15 @@ a {
     color: white;
 }
 
+.ms_header a:hover{
+    color: #1ABC9C;
+}
+
 /* ------------- */
 .navbar-toggler-icon{
-filter: invert(100%) brightness(900%);
+filter: brightness(900%);
 }
+
 .ms_btn_hamgurger {
     border-color:white;
 }
@@ -43,6 +48,10 @@ filter: invert(100%) brightness(900%);
 .ms_about {
     background-color: var(--ms_hero-color);
     color: white;
+}
+
+.ms_hero{
+    padding-top: 60px;
 }
 
 .ms_hero_container{
@@ -78,6 +87,11 @@ filter: invert(100%) brightness(900%);
 .ms_btn_send{
     background-color: #1ABC9C;
     border: 0;
+}
+
+.ms_border_form:focus{
+    box-shadow: unset;
+    border-bottom-color: #1ABC9C;
 }
 
 /* ********************************** */
